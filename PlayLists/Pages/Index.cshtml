@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>Top Songs This Week:</h1>
+@foreach (var song in Model.Songs)
+{
+<div class="alert alert-info">
+    <p>@song.Title by @song.Artist Played @song.NumberOfPlays Times.</p>   
+</div>
+}

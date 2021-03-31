@@ -1,0 +1,17 @@
+﻿@page
+@model PlayLists.Pages.SongDetailsModel
+@{
+}
+
+<h2>Song Details</h2>
+@if (Model.Song != null)
+{
+                <h3>@Model.Song.Title by @Model.Song.Artist</h3>
+}
+else
+{
+
+   <div class="alert alert-danger">
+       <h2>@Model.ErrorMessage</h2>
+   </div>
+}

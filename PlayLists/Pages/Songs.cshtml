@@ -1,0 +1,13 @@
+﻿@page
+@model PlayLists.Pages.SongsModel
+@{
+}
+
+<h2>Your Song List</h2>
+@foreach(var song in Model.Songs)
+            {
+                <div class="alert alert-info">
+                    <p>Song @song.Title by @song.Artist </p>
+                    <a class="btn btn-link" asp-page="SongDetails" asp-route-id="@song.Id">Details</a>
+                </div>
+            }
