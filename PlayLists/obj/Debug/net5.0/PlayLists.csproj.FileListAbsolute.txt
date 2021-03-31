@@ -387,3 +387,4 @@ C:\dev\PlayListsSolution\PlayLists\bin\Debug\net5.0\runtimes\win\lib\netstandard
 C:\dev\PlayListsSolution\PlayLists\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\dev\PlayListsSolution\PlayLists\obj\Debug\net5.0\Razor\Pages\Songs.cshtml.g.cs
 C:\dev\PlayListsSolution\PlayLists\obj\Debug\net5.0\Razor\Pages\SongDetails.cshtml.g.cs
+C:\dev\PlayListsSolution\PlayLists\obj\Debug\net5.0\Razor\Pages\CreateASong.cshtml.g.cs
